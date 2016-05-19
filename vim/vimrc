@@ -1,0 +1,25 @@
+if &compatible
+    set nocompatible
+endif
+
+"set runtimepath^=~/.vim/dein.vim
+"
+"call dein#begin(expand('~/.cache/dein'))
+"
+"call dein#add('~/.vim/dein.vim')
+"call dein#add('Shougo/neocomplete.vim')
+"
+"call dein#end()
+"
+set number
+syntax on
+set clipboard+=unnamed
+set encoding=utf-8
+set fileencoding=utf-8
+set fileencodings=cp932,shift_jis,euc-jp,utf-8
+set laststatus=2
+set showmatch
+set whichwrap=b,s,h,l,<,>,[,]
+set mouse=a
+
+filetype plugin indent on
